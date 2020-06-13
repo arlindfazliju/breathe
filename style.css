@@ -5,7 +5,8 @@
 }
 
 body {
-  background: #224941 url("https://i.ibb.co/bgQwbPN/IMG-6541-1.jpg");
+  background: #224941 url("https://i.ibb.co/bgQwbPN/IMG-6541-1.jpg") no-repeat
+    center center/cover;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   min-height: 100vh;
@@ -88,7 +89,7 @@ body {
 }
 
 .container.grow {
-  animation: grow 3s linear forwards;
+  animation: grow 2.4s linear forwards;
 }
 
 @keyframes grow {
@@ -102,7 +103,7 @@ body {
 }
 
 .container.shrink {
-  animation: shrink 3s linear forwards;
+  animation: shrink 2.4s linear forwards;
 }
 
 @keyframes shrink {
